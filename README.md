@@ -86,7 +86,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 ## <a name="snippets">🕸️ Snippets</a>
 
 <details>
-<summary><code>coinstant/index.ts</code></summary>
+<summary><code>constant/index.ts</code></summary>
 
 ```typescript
 export const navItems = [
