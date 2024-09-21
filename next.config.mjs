@@ -1,7 +1,7 @@
 import { withSentryConfig } from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-
+    output: 'export',
 };
 
 export default withSentryConfig(withSentryConfig(nextConfig, {
@@ -44,7 +44,7 @@ export default withSentryConfig(withSentryConfig(nextConfig, {
     // For all available options, see:
     // https://github.com/getsentry/sentry-webpack-plugin#options
 
-    org: "md-conseils",
+    org: "romain",
     project: "portfolio",
 
     // Only print logs for uploading source maps in CI
